@@ -1,5 +1,5 @@
 nginx:alpine
+nginx:1.26
 postgres:latest
 mariadb
-nginx:1.26
-redis:alpine
+
