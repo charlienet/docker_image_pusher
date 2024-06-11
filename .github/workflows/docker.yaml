@@ -23,9 +23,9 @@ jobs:
       uses: actions/checkout@v4
 
     - name: 登录到 Docker 仓库
-        id: login
-        run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} $ALIYUN_REGISTRY
-        continue-on-error: true
+      id: login
+      run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} $ALIYUN_REGISTRY
+      continue-on-error: true
 
     - name: 检查 Docker 登录成功
       if: ${{ steps.login.outcome == 'success' }}
