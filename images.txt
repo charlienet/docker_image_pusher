@@ -1,2 +1,2 @@
-redis/redis-stack-server:alpine
-redis/redis-stack:alpine
+redis/redis-stack-server
+redis/redis-stack
