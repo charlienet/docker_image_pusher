@@ -1,5 +1,2 @@
-nginx:alpine
-nginx:1.26
-postgres:latest
-mariadb
-
+redis/redis-stack-server:alpine
+redis/redis-stack:alpine
